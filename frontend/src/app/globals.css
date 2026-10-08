@@ -1,0 +1,36 @@
+/* Cloudscape's global styles are imported in layout.tsx; this file only holds app-level tweaks. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky console header, mirroring the AWS Management Console. */
+#console-header {
+  position: sticky;
+  top: 0;
+  z-index: 1002;
+}
+
+.mono {
+  font-family: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.value-cell {
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+kbd.shortcut {
+  display: inline-block;
+  min-width: 18px;
+  padding: 1px 6px;
+  border: 1px solid #8c8c94;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 12px;
+  text-align: center;
+}
