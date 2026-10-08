@@ -2,7 +2,7 @@
 # The SQLite file lives on the instance disk: it is re-seeded with demo data on every cold start.
 services:
   - type: web
-    name: route53-clone-api
+    name: vivekparashar-route53-api
     runtime: python
     plan: free
     rootDir: backend

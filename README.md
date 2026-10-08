@@ -7,7 +7,7 @@ The UI is built on [Cloudscape](https://cloudscape.design), the open-source desi
 Management Console itself uses, so tables, forms, modals, flash notifications, split panels and the
 side navigation look and behave like the real console rather than an approximation of it.
 
-- **Live demo:** _see the link in the repository description_
+- **Live demo:** https://route53-clone-nu.vercel.app
 - **Demo login:** account `123456789012` (or alias `demo`) · IAM user `admin` · password `Route53Demo!`
 
 ---
